@@ -3,12 +3,10 @@ Maula - A dynamically typed language, designed to resemble Lua. Written on the f
 Documentation site: https://maula-docs.vercel.app
 
 Usage:
+`
 import {runMaula} from "/maula.js"
-runMaula(`
-print(99)
-`);
-
-
+runMaula("print(99)");
+`
 
 
 License:
